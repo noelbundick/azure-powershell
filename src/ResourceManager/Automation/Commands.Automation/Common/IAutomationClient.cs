@@ -183,6 +183,17 @@ namespace Microsoft.Azure.Commands.Automation.Common
 
         Schedule UpdateSchedule(string resourceGroupName, string automationAccountName, string scheduleName, bool? isEnabled, string description);
 
+        Schedule UpdateSchedule(string resourceGroupName, string automationAccountName,
+            string scheduleName,
+            bool? isEnabled,
+            string description,
+            DateTimeOffset? startTime,
+            DateTimeOffset? expiryTime,
+            byte? interval,
+            string frequency,
+            Microsoft.Azure.Management.Automation.Models.AdvancedSchedule advancedSchedule,
+            string timeZone);
+
         #endregion
 
         #region Runbooks

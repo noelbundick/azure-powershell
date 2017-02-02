@@ -7563,7 +7563,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ExpiryTime</maml:name>
           <maml:description>
-            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffest object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
         </command:parameter>
@@ -7577,7 +7577,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
           <maml:name>TimeZone</maml:name>
           <maml:description>
-            <maml:para>The time zone for the schedule. This string can be the IANNA ID or the Windows Time Zone ID.</maml:para>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -7628,7 +7628,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
           <maml:name>TimeZone</maml:name>
           <maml:description>
-            <maml:para>The time zone for the schedule. This string can be the IANNA ID or the Windows Time Zone ID.</maml:para>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -7673,7 +7673,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ExpiryTime</maml:name>
           <maml:description>
-            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffest object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
         </command:parameter>
@@ -7687,7 +7687,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
           <maml:name>TimeZone</maml:name>
           <maml:description>
-            <maml:para>The time zone for the schedule. This string can be the IANNA ID or the Windows Time Zone ID.</maml:para>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -7732,7 +7732,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ExpiryTime</maml:name>
           <maml:description>
-            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffest object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
         </command:parameter>
@@ -7753,7 +7753,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
           <maml:name>TimeZone</maml:name>
           <maml:description>
-            <maml:para>The time zone for the schedule. This string can be the IANNA ID or the Windows Time Zone ID.</maml:para>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -7798,7 +7798,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ExpiryTime</maml:name>
           <maml:description>
-            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffest object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
         </command:parameter>
@@ -7819,7 +7819,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
           <maml:name>TimeZone</maml:name>
           <maml:description>
-            <maml:para>The time zone for the schedule. This string can be the IANNA ID or the Windows Time Zone ID.</maml:para>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -7864,7 +7864,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
           <maml:name>ExpiryTime</maml:name>
           <maml:description>
-            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffest object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
           </maml:description>
           <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
         </command:parameter>
@@ -7892,7 +7892,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
           <maml:name>TimeZone</maml:name>
           <maml:description>
-            <maml:para>The time zone for the schedule. This string can be the IANNA ID or the Windows Time Zone ID.</maml:para>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -7938,7 +7938,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
         <maml:name>ExpiryTime</maml:name>
         <maml:description>
-          <maml:para>Specifies the expiry time of a schedule as a DateTimeOffest object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
         <dev:type>
@@ -8022,7 +8022,7 @@ PS C:\&gt; New-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
       <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
         <maml:name>MonthInterval</maml:name>
         <maml:description>
-          <maml:para>Specifies an interval, in moonths, for the schedule.</maml:para>
+          <maml:para>Specifies an interval, in months, for the schedule.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
         <dev:type>
@@ -12792,6 +12792,450 @@ PS C:\&gt; Set-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
           </maml:description>
           <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
         </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Set-AzureRMAutomationSchedule</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="1" aliases="none">
+          <maml:name>ResourceGroupName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of a resource group for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="2" aliases="none">
+          <maml:name>AutomationAccountName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of an Automation account for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="3" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name for the schedule that this cmdlet modifies.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>OneTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies that the cmdlet sets the schedule to run one-time.</maml:para>
+          </maml:description>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>Description</maml:name>
+          <maml:description>
+            <maml:para>Specifies a description for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>IsEnabled</maml:name>
+          <maml:description>
+            <maml:para>Specifies whether this cmdlet enables the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Set-AzureRMAutomationSchedule</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="1" aliases="none">
+          <maml:name>ResourceGroupName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of a resource group for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="2" aliases="none">
+          <maml:name>AutomationAccountName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of an Automation account for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="3" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name for the schedule that this cmdlet modifies.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>HourInterval</maml:name>
+          <maml:description>
+            <maml:para>Specifies an interval, in hours, for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>Description</maml:name>
+          <maml:description>
+            <maml:para>Specifies a description for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>IsEnabled</maml:name>
+          <maml:description>
+            <maml:para>Specifies whether this cmdlet enables the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Set-AzureRMAutomationSchedule</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="1" aliases="none">
+          <maml:name>ResourceGroupName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of a resource group for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="2" aliases="none">
+          <maml:name>AutomationAccountName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of an Automation account for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="3" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name for the schedule that this cmdlet modifies.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>DayInterval</maml:name>
+          <maml:description>
+            <maml:para>Specifies an interval, in days, for the schedule. If you do not specify this parameter, and you do not specify the OneTime parameter, the default value is one (1).</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>Description</maml:name>
+          <maml:description>
+            <maml:para>Specifies a description for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>IsEnabled</maml:name>
+          <maml:description>
+            <maml:para>Specifies whether this cmdlet enables the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Set-AzureRMAutomationSchedule</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="1" aliases="none">
+          <maml:name>ResourceGroupName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of a resource group for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="2" aliases="none">
+          <maml:name>AutomationAccountName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of an Automation account for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="3" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name for the schedule that this cmdlet modifies.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>WeekInterval</maml:name>
+          <maml:description>
+            <maml:para>Specifies an interval, in weeks, for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>DaysOfWeek</maml:name>
+          <maml:description>
+            <maml:para>The list of days of week for the weekly schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">System.DayOfWeek[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>Description</maml:name>
+          <maml:description>
+            <maml:para>Specifies a description for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>IsEnabled</maml:name>
+          <maml:description>
+            <maml:para>Specifies whether this cmdlet enables the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Set-AzureRMAutomationSchedule</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="1" aliases="none">
+          <maml:name>ResourceGroupName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of a resource group for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="2" aliases="none">
+          <maml:name>AutomationAccountName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of an Automation account for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="3" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name for the schedule that this cmdlet modifies.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>MonthInterval</maml:name>
+          <maml:description>
+            <maml:para>Specifies an interval, in Month, for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>DaysOfMonth</maml:name>
+          <maml:description>
+            <maml:para>The list of days of month for the monthly schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">System.Int32[]</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>Description</maml:name>
+          <maml:description>
+            <maml:para>Specifies a description for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>IsEnabled</maml:name>
+          <maml:description>
+            <maml:para>Specifies whether this cmdlet enables the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <command:syntaxItem>
+        <maml:name>Set-AzureRMAutomationSchedule</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="1" aliases="none">
+          <maml:name>ResourceGroupName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of a resource group for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="2" aliases="none">
+          <maml:name>AutomationAccountName</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name of an Automation account for which this cmdlet modifies a schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="3" aliases="none">
+          <maml:name>Name</maml:name>
+          <maml:description>
+            <maml:para>Specifies the name for the schedule that this cmdlet modifies.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>MonthInterval</maml:name>
+          <maml:description>
+            <maml:para>Specifies an interval, in Month, for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>DayOfWeek</maml:name>
+          <maml:description>
+            <maml:para>The day of week for the monthly occurrence.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">System.DayOfWeek</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+          <maml:name>DayOfWeekOccurrence</maml:name>
+          <maml:description>
+            <maml:para>The Occurrence of the week within the month.The acceptable values either are 1, 2, 3, 4, -1 or First, Second, Third, Fourth and LastDay</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">System.Int32</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>Description</maml:name>
+          <maml:description>
+            <maml:para>Specifies a description for the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>IsEnabled</maml:name>
+          <maml:description>
+            <maml:para>Specifies whether this cmdlet enables the schedule.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">Boolean</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>StartTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the start time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>ExpiryTime</maml:name>
+          <maml:description>
+            <maml:para>Specifies the expiry time of a schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+          <maml:name>TimeZone</maml:name>
+          <maml:description>
+            <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+          </maml:description>
+          <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        </command:parameter>
       </command:syntaxItem>
     </command:syntax>
     <command:parameters>
@@ -12855,6 +13299,137 @@ PS C:\&gt; Set-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
         </dev:type>
         <dev:defaultValue>none</dev:defaultValue>
       </command:parameter>
+      <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>DayInterval</maml:name>
+        <maml:description>
+          <maml:para>Specifies an interval, in days, for the schedule.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        <dev:type>
+          <maml:name>Byte</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+        <maml:name>ExpiryTime</maml:name>
+        <maml:description>
+          <maml:para>Specifies the expiry time of the schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">DateTimeOffset</command:parameterValue>
+        <dev:type>
+          <maml:name>DateTimeOffset</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>HourInterval</maml:name>
+        <maml:description>
+          <maml:para>Specifies an interval, in hours, for the schedule.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        <dev:type>
+          <maml:name>Byte</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>OneTime</maml:name>
+        <maml:description>
+          <maml:para>Specifies that the cmdlet sets the schedule to run one-time.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="4" aliases="none">
+        <maml:name>StartTime</maml:name>
+        <maml:description>
+          <maml:para>Specifies the start time of the schedule as a DateTimeOffset object. You can specify a string that can be converted to a valid DateTimeOffset.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">DateTimeOffset</command:parameterValue>
+        <dev:type>
+          <maml:name>DateTimeOffset</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>WeekInterval</maml:name>
+        <maml:description>
+          <maml:para>Specifies an interval, in weeks, for the schedule.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        <dev:type>
+          <maml:name>Byte</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>MonthInterval</maml:name>
+        <maml:description>
+          <maml:para>Specifies an interval, in months, for the schedule.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Byte</command:parameterValue>
+        <dev:type>
+          <maml:name>Byte</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>DaysOfWeek</maml:name>
+        <maml:description>
+          <maml:para>The list of days of week for the weekly schedule.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">System.DayOfWeek[]</command:parameterValue>
+        <dev:type>
+          <maml:name>System.DayOfWeek[]</maml:name>
+          <maml:uri />
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>DayOfWeek</maml:name>
+        <maml:description>
+          <maml:para>The day of week for the monthly occurrence.</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">System.DayOfWeek</command:parameterValue>
+        <dev:type>
+          <maml:name>System.DayOfWeek</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="none">
+        <maml:name>DayOfWeekOccurrence</maml:name>
+        <maml:description>
+          <maml:para>The Occurrence of the week within the month.The acceptable values either are 1, 2, 3, 4, -1 or First, Second, Third, Fourth and LastDay</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">System.Int32</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Int32</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true(ByPropertyName)" position="named" aliases="none">
+        <maml:name>TimeZone</maml:name>
+        <maml:description>
+          <maml:para>The time zone for the schedule. This string can be the IANA ID or the Windows Time Zone ID.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>none</dev:defaultValue>
+      </command:parameter>
     </command:parameters>
     <command:inputTypes>
       <command:inputType>
@@ -12889,7 +13464,7 @@ PS C:\&gt; Set-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
     <command:nonTerminatingErrors />
     <command:examples>
       <command:example>
-        <maml:title>Example 1: Modify a schedule</maml:title>
+        <maml:title>Example 1: Modify the description of a schedule</maml:title>
         <maml:introduction>
           <maml:para>
           </maml:para>
@@ -12898,6 +13473,74 @@ PS C:\&gt; Set-AzureRmAutomationCredential -AutomationAccountName "Contoso17" -N
 </dev:code>
         <dev:remarks>
           <maml:para>This command modifies the description of the schedule named Schedule01.</maml:para>
+          <maml:para />
+          <maml:para />
+        </dev:remarks>
+        <command:commandLines>
+          <command:commandLine>
+            <command:commandText />
+          </command:commandLine>
+        </command:commandLines>
+      </command:example>
+      <command:example>
+        <maml:title>Example 2: Modify the expiration date of a schedule</maml:title>
+        <maml:introduction>
+          <maml:para>
+          </maml:para>
+        </maml:introduction>
+        <dev:code>
+PS C:\&gt; $StartTime = Get-Date
+PS C:\&gt; $EndTime = $StartTime.AddYears(1)
+PS C:\&gt; Set-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule02" -ExpiryTime $EndTime -ResourceGroupName "ResourceGroup01"
+</dev:code>
+        <dev:remarks>
+          <maml:para>The first command creates a date object by using the Get-Date cmdlet, and then stores the object in the $StartDate variable.</maml:para>
+          <maml:para>The second command creates a date object by using the Get-Date cmdlet, and then stores the object in the $EndDate variable. The command specifies a future time. </maml:para>
+          <maml:para>The final command modifies the schedule named Schedule02 expire at the time stored in $EndDate.</maml:para>
+          <maml:para />
+          <maml:para />
+        </dev:remarks>
+        <command:commandLines>
+          <command:commandLine>
+            <command:commandText />
+          </command:commandLine>
+        </command:commandLines>
+      </command:example>
+      <command:example>
+        <maml:title>Example 3: Modify a schedule to recur Weekly</maml:title>
+        <maml:introduction>
+          <maml:para>
+          </maml:para>
+        </maml:introduction>
+        <dev:code>
+PS C:\&gt; $days = @([System.DayOfWeek]::Monday, [System.DayOfWeek]::Saturday, [System.DayOfWeek]::Sunday)
+PS C:\&gt; Set-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule03" -WeeklyInterval 1 -DaysOfWeek $days -ResourceGroupName "ResourceGroup01"
+</dev:code>
+        <dev:remarks>
+          <maml:para>The first command creates an array of selected System.DayOfWeek in which the schedule is set to be run, and then stores the object in the $days variable.</maml:para>
+          <maml:para>The final command modifies the schedule named Schedule03 to run in the days of the week stored in $days.</maml:para>
+          <maml:para />
+          <maml:para />
+        </dev:remarks>
+        <command:commandLines>
+          <command:commandLine>
+            <command:commandText />
+          </command:commandLine>
+        </command:commandLines>
+      </command:example>
+      <command:example>
+        <maml:title>Example 4: Modify the start time of a schedule</maml:title>
+        <maml:introduction>
+          <maml:para>
+          </maml:para>
+        </maml:introduction>
+        <dev:code>          
+PS C:\&gt; $StartTime = (Get-Date).AddMinutes(15)
+PS C:\&gt; Set-AzureRmAutomationSchedule -AutomationAccountName "Contoso17" -Name "Schedule04" -StartTime $StartTime -ResourceGroupName "ResourceGroup01"
+</dev:code>
+        <dev:remarks>
+          <maml:para>The first command creates a date object by using the Get-Date cmdlet, adds 15 minutes, and then stores the object in the $StartDate variable. Specify a time that is at least five minutes in the future.</maml:para>
+          <maml:para>The final command modifies the schedule named Schedule04 to begin at the time stored in $StartDate.</maml:para>
           <maml:para />
           <maml:para />
         </dev:remarks>

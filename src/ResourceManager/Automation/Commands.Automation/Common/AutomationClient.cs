@@ -419,6 +419,43 @@ namespace Microsoft.Azure.Commands.Automation.Common
             return this.UpdateScheduleHelper(resourceGroupName, automationAccountName, scheduleName, isEnabled, description);
         }
 
+        public Schedule UpdateSchedule(
+            string resourceGroupName,
+            string automationAccountName,
+            string scheduleName,
+            bool? isEnabled,
+            string description,
+            DateTimeOffset? startTime,
+            DateTimeOffset? expiryTime,
+            byte? interval,
+            string frequency,
+            AdvancedSchedule advancedSchedule,
+            string timeZone)
+        {
+            var scheduleUpdateParameters = new AutomationManagement.Models.SchedulePatchParameters
+            {
+                Name = scheduleName,
+                Properties = new AutomationManagement.Models.SchedulePatchProperties
+                {
+                    Description = description,
+                    IsEnabled = isEnabled,
+                    StartTime = startTime,
+                    ExpiryTime = expiryTime,
+                    Interval = interval,
+                    Frequency = frequency,
+                    AdvancedSchedule = advancedSchedule,
+                    TimeZone = timeZone
+                }
+            };
+
+            this.automationManagementClient.Schedules.Patch(
+                resourceGroupName,
+                automationAccountName,
+                scheduleUpdateParameters);
+
+            return this.GetSchedule(resourceGroupName, automationAccountName, scheduleName);
+        }
+
         #endregion
 
         #region Runbook Operations
