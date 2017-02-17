@@ -343,23 +343,14 @@ namespace Microsoft.Azure.Commands.Automation.Common
                     Frequency = schedule.Frequency.ToString(),
                     AdvancedSchedule = schedule.GetAdvancedSchedule(),
                     TimeZone = schedule.TimeZone,
-                }
+                },
+                ConvertTimesFromTimeZone = !string.IsNullOrWhiteSpace(schedule.TimeZone)
             };
 
-            if (!string.IsNullOrEmpty(schedule.TimeZone))
-            {
-                this.automationManagementClient.Schedules.CreateOrUpdateWithTimeConversion(
+            this.automationManagementClient.Schedules.CreateOrUpdate(
                     resourceGroupName,
                     automationAccountName,
                     scheduleCreateOrUpdateParameters);
-            }
-            else
-            {
-                this.automationManagementClient.Schedules.CreateOrUpdate(
-                    resourceGroupName,
-                    automationAccountName,
-                    scheduleCreateOrUpdateParameters);
-            }
 
             return this.GetSchedule(resourceGroupName, automationAccountName, schedule.Name);
         }
@@ -445,7 +436,8 @@ namespace Microsoft.Azure.Commands.Automation.Common
                     Frequency = frequency,
                     AdvancedSchedule = advancedSchedule,
                     TimeZone = timeZone
-                }
+                },
+                ConvertTimesFromTimeZone = !string.IsNullOrWhiteSpace(timeZone)
             };
 
             this.automationManagementClient.Schedules.Patch(
