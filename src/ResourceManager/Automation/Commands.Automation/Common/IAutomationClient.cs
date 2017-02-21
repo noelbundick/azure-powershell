@@ -173,7 +173,7 @@ namespace Microsoft.Azure.Commands.Automation.Common
 
         #region Schedules
 
-        Schedule CreateSchedule(string resourceGroupName, string automationAccountName, Schedule schedule);
+        Schedule CreateSchedule(string resourceGroupName, string automationAccountName, Schedule schedule, bool convertTimesFromTimeZone);
 
         void DeleteSchedule(string resourceGroupName, string automationAccountName, string scheduleName);
 
@@ -192,7 +192,8 @@ namespace Microsoft.Azure.Commands.Automation.Common
             byte? interval,
             string frequency,
             Microsoft.Azure.Management.Automation.Models.AdvancedSchedule advancedSchedule,
-            string timeZone);
+            string timeZone,
+            bool convertTimesFromTimeZone);
 
         #endregion
 

@@ -137,6 +137,12 @@ namespace Microsoft.Azure.Commands.Automation.Cmdlet
         public string TimeZone { get; set; }
 
         /// <summary>
+        /// Gets or sets the switch parameter to convert times from the specified time zone.
+        /// </summary>
+        [Parameter(Mandatory = false, HelpMessage = "To convert times from the specified time zone.")]
+        public SwitchParameter ConvertTimesFromTimeZone { get; set; }
+
+        /// <summary>
         /// Execute this cmdlet.
         /// </summary>
         [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
@@ -175,7 +181,7 @@ namespace Microsoft.Azure.Commands.Automation.Cmdlet
                     break;
             }
 
-            Schedule createdSchedule = this.AutomationClient.CreateSchedule(this.ResourceGroupName, this.AutomationAccountName, schedule);
+            Schedule createdSchedule = this.AutomationClient.CreateSchedule(this.ResourceGroupName, this.AutomationAccountName, schedule, this.ConvertTimesFromTimeZone.IsPresent);
             this.WriteObject(createdSchedule);
         }
 

@@ -129,6 +129,12 @@ namespace Microsoft.Azure.Commands.Automation.Cmdlet
         /// </summary>
         [Parameter(Mandatory = false, ValueFromPipelineByPropertyName = true, HelpMessage = "The schedule time zone.")]
         public string TimeZone { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the switch parameter to convert times from the specified time zone.
+        /// </summary>
+        [Parameter(Mandatory = false, HelpMessage = "To convert times from the specified time zone.")]
+        public SwitchParameter ConvertTimesFromTimeZone { get; set; }
 
         /// <summary>
         /// Execute this cmdlet.
@@ -148,7 +154,8 @@ namespace Microsoft.Azure.Commands.Automation.Cmdlet
                 recurrence.Interval,
                 recurrence.Frequency == null ? null : recurrence.Frequency.ToString(),
                 recurrence.AdvancedSchedule,
-                this.TimeZone);
+                this.TimeZone,
+                this.ConvertTimesFromTimeZone.IsPresent);
             this.WriteObject(schedule);
         }
 

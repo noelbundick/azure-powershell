@@ -329,7 +329,7 @@ namespace Microsoft.Azure.Commands.Automation.Common
 
         #region Schedule Operations
 
-        public Schedule CreateSchedule(string resourceGroupName, string automationAccountName, Schedule schedule)
+        public Schedule CreateSchedule(string resourceGroupName, string automationAccountName, Schedule schedule, bool convertTimesFromTimeZone)
         {
             var scheduleCreateOrUpdateParameters = new AutomationManagement.Models.ScheduleCreateOrUpdateParameters
             {
@@ -344,7 +344,7 @@ namespace Microsoft.Azure.Commands.Automation.Common
                     AdvancedSchedule = schedule.GetAdvancedSchedule(),
                     TimeZone = schedule.TimeZone,
                 },
-                ConvertTimesFromTimeZone = !string.IsNullOrWhiteSpace(schedule.TimeZone)
+                ConvertTimesFromTimeZone = convertTimesFromTimeZone
             };
 
             this.automationManagementClient.Schedules.CreateOrUpdate(
@@ -421,7 +421,8 @@ namespace Microsoft.Azure.Commands.Automation.Common
             byte? interval,
             string frequency,
             AdvancedSchedule advancedSchedule,
-            string timeZone)
+            string timeZone,
+            bool convertTimesFromTimeZone)
         {
             var scheduleUpdateParameters = new AutomationManagement.Models.SchedulePatchParameters
             {
@@ -437,7 +438,7 @@ namespace Microsoft.Azure.Commands.Automation.Common
                     AdvancedSchedule = advancedSchedule,
                     TimeZone = timeZone
                 },
-                ConvertTimesFromTimeZone = !string.IsNullOrWhiteSpace(timeZone)
+                ConvertTimesFromTimeZone = convertTimesFromTimeZone
             };
 
             this.automationManagementClient.Schedules.Patch(
